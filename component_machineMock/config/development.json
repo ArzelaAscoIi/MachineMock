@@ -1,0 +1,23 @@
+{
+    "id": "b908b6b0-fac8-11e9-9efd-d5684e7043c9",
+    "name": "Machine Example 2",
+    "location": {
+        "latitude": 52.5297268,
+        "longitude": 13.400391
+    },
+    "payment": {
+        "upfront": 0,
+        "afterProcessing": 0,
+        "invoice": 0
+    },
+    "schema": "./env/schema.js",
+    "apikey": "b2ac3ec59d3a47a794d3afdd39133631",
+    "privKey": "./env/key_world.js",
+    "mode": 1,
+    "apiPort": 3001,
+    "apiDomain": "127.0.0.1",
+    "mqttDomain":"mqtt://127.0.0.1",
+    "mqttPort": 1884,
+    "description": "./env/description.md",
+    "tags": ["test","ahh"]
+}
