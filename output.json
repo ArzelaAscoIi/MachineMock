@@ -1,0 +1,268 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "title": "The Root Schema",
+  "required": [
+    "Quality",
+    "Avg_Force",
+    "Max_Force",
+    "Avg_Temperature",
+    "Max_Temperature",
+    "Avg_Frequency",
+    "Max_Frequency",
+    "Power_Anomaly",
+    "Heat_Anomaly"
+  ],
+  "properties": {
+    "Quality": {
+      "$id": "#/properties/Quality",
+      "type": "object",
+      "title": "The Quality Schema",
+      "required": [
+        "value",
+        "unit"
+      ],
+      "properties": {
+        "value": {
+          "$id": "#/properties/Quality/properties/value",
+          "type": "number",
+          "title": "The Value Schema",
+          "default": 0.0,
+          "examples": [
+            90.11026361140841
+          ]
+        },
+        "unit": {
+          "$id": "#/properties/Quality/properties/unit",
+          "type": "string",
+          "title": "The Unit Schema",
+          "default": "",
+          "examples": [
+            "%"
+          ],
+          "pattern": "^(.*)$"
+        }
+      }
+    },
+    "Avg_Force": {
+      "$id": "#/properties/Avg_Force",
+      "type": "object",
+      "title": "The Avg_force Schema",
+      "required": [
+        "value",
+        "unit"
+      ],
+      "properties": {
+        "value": {
+          "$id": "#/properties/Avg_Force/properties/value",
+          "type": "number",
+          "title": "The Value Schema",
+          "default": 0.0,
+          "examples": [
+            0.5452202939981777
+          ]
+        },
+        "unit": {
+          "$id": "#/properties/Avg_Force/properties/unit",
+          "type": "string",
+          "title": "The Unit Schema",
+          "default": "",
+          "examples": [
+            "kN"
+          ],
+          "pattern": "^(.*)$"
+        }
+      }
+    },
+    "Max_Force": {
+      "$id": "#/properties/Max_Force",
+      "type": "object",
+      "title": "The Max_force Schema",
+      "required": [
+        "value",
+        "unit"
+      ],
+      "properties": {
+        "value": {
+          "$id": "#/properties/Max_Force/properties/value",
+          "type": "number",
+          "title": "The Value Schema",
+          "default": 0.0,
+          "examples": [
+            0.8522043369478929
+          ]
+        },
+        "unit": {
+          "$id": "#/properties/Max_Force/properties/unit",
+          "type": "string",
+          "title": "The Unit Schema",
+          "default": "",
+          "examples": [
+            "kN"
+          ],
+          "pattern": "^(.*)$"
+        }
+      }
+    },
+    "Avg_Temperature": {
+      "$id": "#/properties/Avg_Temperature",
+      "type": "object",
+      "title": "The Avg_temperature Schema",
+      "required": [
+        "value",
+        "unit"
+      ],
+      "properties": {
+        "value": {
+          "$id": "#/properties/Avg_Temperature/properties/value",
+          "type": "number",
+          "title": "The Value Schema",
+          "default": 0.0,
+          "examples": [
+            210.5956036910833
+          ]
+        },
+        "unit": {
+          "$id": "#/properties/Avg_Temperature/properties/unit",
+          "type": "string",
+          "title": "The Unit Schema",
+          "default": "",
+          "examples": [
+            "°C"
+          ],
+          "pattern": "^(.*)$"
+        }
+      }
+    },
+    "Max_Temperature": {
+      "$id": "#/properties/Max_Temperature",
+      "type": "object",
+      "title": "The Max_temperature Schema",
+      "required": [
+        "value",
+        "unit"
+      ],
+      "properties": {
+        "value": {
+          "$id": "#/properties/Max_Temperature/properties/value",
+          "type": "number",
+          "title": "The Value Schema",
+          "default": 0.0,
+          "examples": [
+            258.20493550192833
+          ]
+        },
+        "unit": {
+          "$id": "#/properties/Max_Temperature/properties/unit",
+          "type": "string",
+          "title": "The Unit Schema",
+          "default": "",
+          "examples": [
+            "°C"
+          ],
+          "pattern": "^(.*)$"
+        }
+      }
+    },
+    "Avg_Frequency": {
+      "$id": "#/properties/Avg_Frequency",
+      "type": "object",
+      "title": "The Avg_frequency Schema",
+      "required": [
+        "value",
+        "unit"
+      ],
+      "properties": {
+        "value": {
+          "$id": "#/properties/Avg_Frequency/properties/value",
+          "type": "number",
+          "title": "The Value Schema",
+          "default": 0.0,
+          "examples": [
+            775.2767534975188
+          ]
+        },
+        "unit": {
+          "$id": "#/properties/Avg_Frequency/properties/unit",
+          "type": "string",
+          "title": "The Unit Schema",
+          "default": "",
+          "examples": [
+            "Hz"
+          ],
+          "pattern": "^(.*)$"
+        }
+      }
+    },
+    "Max_Frequency": {
+      "$id": "#/properties/Max_Frequency",
+      "type": "object",
+      "title": "The Max_frequency Schema",
+      "required": [
+        "value",
+        "unit"
+      ],
+      "properties": {
+        "value": {
+          "$id": "#/properties/Max_Frequency/properties/value",
+          "type": "number",
+          "title": "The Value Schema",
+          "default": 0.0,
+          "examples": [
+            814.135890769134
+          ]
+        },
+        "unit": {
+          "$id": "#/properties/Max_Frequency/properties/unit",
+          "type": "string",
+          "title": "The Unit Schema",
+          "default": "",
+          "examples": [
+            "Hz"
+          ],
+          "pattern": "^(.*)$"
+        }
+      }
+    },
+    "Power_Anomaly": {
+      "$id": "#/properties/Power_Anomaly",
+      "type": "object",
+      "title": "The Power_anomaly Schema",
+      "required": [
+        "value"
+      ],
+      "properties": {
+        "value": {
+          "$id": "#/properties/Power_Anomaly/properties/value",
+          "type": "boolean",
+          "title": "The Value Schema",
+          "default": false,
+          "examples": [
+            true
+          ]
+        }
+      }
+    },
+    "Heat_Anomaly": {
+      "$id": "#/properties/Heat_Anomaly",
+      "type": "object",
+      "title": "The Heat_anomaly Schema",
+      "required": [
+        "value"
+      ],
+      "properties": {
+        "value": {
+          "$id": "#/properties/Heat_Anomaly/properties/value",
+          "type": "boolean",
+          "title": "The Value Schema",
+          "default": false,
+          "examples": [
+            false
+          ]
+        }
+      }
+    }
+  }
+}
